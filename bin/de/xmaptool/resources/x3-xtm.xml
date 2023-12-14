@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xuniverse-map title="X3 - Reunion - XTended Mod" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xuniverse-map.xsd">
+
+  <!-- Argonen Kernsektoren -->
+  <sector id="Drei Welten" by="Argonen" x="1" y= "2">
+    <gate to="Königstal"/>
+    <gate to="Energiezirkulum"/>
+    <gate to="Wolkenbasis NW"/>
+  </sector>
+  <sector id="Energiezirkulum" by="Argonen" x="2" y= "2">
+    <gate to="Drei Welten"/>
+    <gate to="Antigone Memorial"/>
+    <gate to="Herrons Nebel"/>
+  </sector>
+  <sector id="Antigone Memorial" by="Argonen" x="3" y= "2">
+    <gate to="Energiezirkulum"/>
+    <gate to="Rotes HQ"/>
+  </sector>
+  <sector id="Wolkenbasis NW" by="Argonen" x="1" y= "3">
+    <gate to="Drei Welten"/>
+    <gate to="Herrons Nebel"/>
+    <gate to="Ringo Mond"/>
+  </sector>
+  <sector id="Herrons Nebel" by="Argonen" x="2" y= "3">
+    <gate to="Energiezirkulum"/>
+    <gate to="Wolkenbasis NW"/>
+    <gate to="Rotes HQ"/>
+    <gate to="Argon Prime"/>
+  </sector>
+  <sector id="Rotes HQ" by="Argonen" x="3" y= "3">
+    <gate to="Antigone Memorial"/>
+    <gate to="Herrons Nebel"/>
+    <gate to="Wolken der Atreus"/>
+    <gate to="Linie der Energie"/>
+  </sector>
+  <sector id="Ringo Mond" by="Argonen" x="1" y= "4">
+    <gate to="Wolkenbasis NW"/>
+    <gate to="Argon Prime"/>
+    <gate to="Roter Schein"/>
+  </sector>
+  <sector id="Argon Prime" by="Argonen" x="2" y= "4">
+    <gate to="Herrons Nebel"/>
+    <gate to="Ringo Mond"/>
+    <gate to="Linie der Energie"/>
+    <gate to="Heimat des Lichts"/>
+  </sector>
+  <sector id="Linie der Energie" by="Argonen" x="3" y= "4">
+    <gate to="Rotes HQ"/>
+    <gate to="Argon Prime"/>
+    <gate to="Trantor"/>
+  </sector>
+  <sector id="Roter Schein" by="Argonen" x="1" y= "5">
+    <gate to="Ringo Mond"/>
+    <gate to="Heimat des Lichts"/>
+    <gate to="Wolkenbasis SW"/>
+  </sector>
+  <sector id="Heimat des Lichts" by="Argonen" x="2" y= "5">
+    <gate to="Argon Prime"/>
+    <gate to="Roter Schein"/>
+    <gate to="Trantor"/>
+    <gate to="Erzgürtel"/>
+  </sector>
+  <sector id="Trantor" by="Argonen" x="3" y= "5">
+    <gate to="Linie der Energie"/>
+    <gate to="Heimat des Lichts"/>
+    <gate to="Elenas Glück"/>
+    <gate to="Wolkenbasis SO"/>
+  </sector>
+  <sector id="Wolkenbasis SW" by="Argonen" x="1" y= "6">
+    <gate to="Roter Schein"/>
+    <gate to="Erzgürtel"/>
+    <gate to="Minen des Imperators"/>
+  </sector>
+  <sector id="Erzgürtel" by="Argonen" x="2" y= "6">
+    <gate to="Heimat des Lichts"/>
+    <gate to="Wolkenbasis SW"/>
+    <gate to="Wolkenbasis SO"/>
+  </sector>
+  <sector id="Elenas Glück" by="Argonen" x="4" y= "5">
+    <gate to="Farnhams Legende"/>
+    <gate to="Trantor"/>
+    <gate to="Olmanckets Vertrag"/>
+    <gate to="Split Feuer"/>
+  </sector>
+  <sector id="Wolkenbasis SO" by="Argonen" x="3" y= "6">
+    <gate to="Trantor"/>
+    <gate to="Erzgürtel"/>
+  </sector>
+
+  <!-- Argonen Außensektoren -->
+  <sector id="Getsu Fune" by="Argonen" x="18" y= "2">
+    <gate to="X. S. 534"/>
+    <gate to="Menelaus Paradies"/>
+  </sector>
+  <sector id="Mantikor" by="Argonen" x="12" y= "5">
+    <gate to="Zwei Riesen"/>
+  </sector>
+  <sector id="Proxima Centauri" by="Argonen" x="9" y= "6">
+    <gate to="X. S. 256"/>
+    <gate to="Unbekannter Sektor 07-05"/>
+    <gate to="Nathans Burg"/>
+    <gate to="Akeelas Leuchtfeuer"/>
+  </sector>
+  <sector id="Nathans Burg" by="Argonen" x="10" y= "6">
+    <gate to="Heim des Patriarchen"/>
+    <gate to="Proxima Centauri"/>
+    <gate to="Profitcenter Alpha"/>
+  </sector>
+  <sector id="Aladnas Hügel" by="Argonen" x="8" y= "7">
+    <gate to="Hatikvahs Glaube"/>
+    <gate to="Akeelas Leuchtfeuer"/>
+    <gate to="Herzenslicht"/>
+  </sector>
+  <sector id="Akeelas Leuchtfeuer" by="Argonen" x="9" y= "7">
+    <gate to="Proxima Centauri"/>
+    <gate to="Aladnas Hügel"/>
+    <gate to="Memorial des Lichts"/>
+  </sector>
+  <sector id="Herzenslicht" by="Argonen" x="8" y= "8">
+    <gate to="Aladnas Hügel"/>
+    <gate to="Montalaar"/>
+  </sector>
+  <sector id="Memorial des Lichts" by="Argonen" x="9" y= "8">
+    <gate to="Akeelas Leuchtfeuer"/>
+  </sector>
+  <sector id="Montalaar" by="Argonen" x="8" y= "9">
+    <gate to="Herzenslicht"/>
+    <gate to="Habgier"/>
+    <gate to="Rolks Vermächtnis"/>
+  </sector>
+  <sector id="Zentrum der Arbeit" by="Argonen" x="14" y= "6">
+    <gate to="Ketzers Untergang"/>
+    <gate to="Omicron Lyrae"/>
+  </sector>
+  <sector id="Nyanas Unterschlupf" by="Argonen" x="13" y= "7">
+    <gate to="Grüne Schuppe"/>
+    <gate to="Omicron Lyrae"/>
+  </sector>
+  <sector id="Omicron Lyrae" by="Argonen" x="14" y= "7">
+    <gate to="Zentrum der Arbeit"/>
+    <gate to="Nyanas Unterschlupf"/>
+    <gate to="Schatzkammer"/>
+  </sector>
+  <sector id="Schatzkammer" by="Argonen" x="15" y= "7">
+    <gate to="Elysium des Lichts"/>
+    <gate to="Omicron Lyrae"/>
+    <gate to="Schwarze Sonne"/>
+  </sector>
+  <sector id="Schwarze Sonne" by="Argonen" x="16" y= "7">
+    <gate to="X. S. 472"/>
+    <gate to="Schatzkammer"/>
+    <gate to="Nathans Reise"/>
+  </sector>
+  <sector id="Nathans Reise" by="Argonen" x="16" y= "8">
+    <gate to="Schwarze Sonne"/>
+    <gate to="Ödland"/>
+  </sector>
+  <sector id="Ödland" by="Argonen" x="17" y= "8">
+    <gate to="Nathans Reise"/>
+    <gate to="Polarstern"/>
+    <gate to="Zwei Welten"/>
+  </sector>
+  <sector id="Polarstern" by="Argonen" x="18" y= "8">
+    <gate to="Mönchs Rückzug"/>
+    <gate to="Ödland"/>
+    <gate to="Aquilars Gürtel"/>
+  </sector>
+  <sector id="Aquilars Gürtel" by="Argonen" x="19" y= "8">
+    <gate to="Polarstern"/>
+    <gate to="Profitabler Handel"/>
+  </sector>
+  <sector id="Zwei Welten" by="Argonen" x="17" y= "9">
+    <gate to="Ödland"/>
+    <gate to="Heiliges Relikt"/>
+  </sector>
+  <sector id="Händlers Freude" by="Argonen" x="4" y= "15">
+    <gate to="Karge Küste"/>
+    <gate to="Großes Riff"/>
+    <gate to="Hafen"/>
+  </sector>
+  <sector id="Hafen" by="Argonen" x="5" y= "15">
+    <gate to="Händlers Freude"/>
+    <gate to="X. S. 258"/>
+  </sector>
+  <sector id="Triumph der Föderation" by="Argonen" x="11" y= "16">
+    <gate to="Ruhe des Pontifex"/>
+    <gate to="Gesegnetes Feuer"/>
+    <gate to="Neue Grenze"/>
+    <gate to="Verborgene Kostbarkeit"/>
+  </sector>
+  <sector id="Neue Grenze" by="Argonen" x="16" y= "16">
+    <gate to="Triumph der Föderation"/>
+    <gate to="Flammender Kelch"/>
+    <gate to="Atlantia Prime"/>
+  </sector>
+   <sector id="Ende der Föderation" by="Argonen" x="15" y= "17">
+    <gate to="Atlantia Prime"/>
+  </sector>
+   <sector id="Atlantia Prime" by="Argonen" x="16" y= "17">
+    <gate to="Neue Grenze"/>
+    <gate to="Ende der Föderation"/>
+    <gate to="Xerxes Gral"/>
+  </sector>
+  
+  <!-- Boronen Kernsektoren -->
+  <sector id="Königstal" by="Boronen" x="1" y= "1">
+    <gate to="Rolks Reich"/>
+    <gate to="Drei Welten"/>
+  </sector>
+  <sector id="Rolks Reich" by="Boronen" x="2" y= "1">
+    <gate to="Königstal"/>
+    <gate to="Königinhügel"/>
+  </sector>
+  <sector id="Königinhügel" by="Boronen" x="3" y= "1">
+    <gate to="Rolks Reich"/>
+    <gate to="Menelaus Grenze"/>
+  </sector>
+  <sector id="Menelaus Grenze" by="Boronen" x="4" y= "1">
+    <gate to="Königinhügel"/>
+    <gate to="Ceos Buckzoid"/>
+    <gate to="Rolks Los"/>
+  </sector>
+  <sector id="Rolks Los" by="Boronen" x="4" y= "2">
+    <gate to="Menelaus Grenze"/>
+    <gate to="Wolken der Atreus"/>
+  </sector>
+  <sector id="Wolken der Atreus" by="Boronen" x="4" y= "3">
+    <gate to="Rolks Los"/>
+    <gate to="Rotes HQ"/>
+    <gate to="Farnhams Legende"/>
+  </sector>
+  
+  <!-- Boronen Außensektoren -->
+  <sector id="Leichtes Wasser" by="Boronen" x="6" y= "9">
+    <gate to="Strand der Ewigkeit"/>
+  </sector>
+  <sector id="Strand der Ewigkeit" by="Boronen" x="6" y= "10">
+    <gate to="Leichtes Wasser"/>
+    <gate to="Predigers Zuflucht"/>
+    <gate to="Glücksplaneten"/>
+    <gate to="Rolks Ozean"/>
+  </sector>
+  <sector id="Glücksplaneten" by="Boronen" x="7" y= "10">
+    <gate to="X. S. 352"/>
+    <gate to="Strand der Ewigkeit"/>
+    <gate to="Rolks Vermächtnis"/>
+  </sector>
+  <sector id="Rolks Vermächtnis" by="Boronen" x="8" y= "10">
+    <gate to="Montalaar"/>
+    <gate to="Glücksplaneten"/>
+    <gate to="Breiter Graben"/>
+    <gate to="Stolz des Königreichs"/>
+  </sector>
+  <sector id="Breiter Graben" by="Boronen" x="9" y= "10">
+    <gate to="Rolks Vermächtnis"/>
+    <gate to="Zweifel des Ceos"/>
+  </sector>
+  <sector id="Rolks Ozean" by="Boronen" x="6" y= "11">
+    <gate to="Strand der Ewigkeit"/>
+    <gate to="Teladi Glück"/>
+  </sector>
+  <sector id="Stolz des Königreichs" by="Boronen" x="8" y= "11">
+    <gate to="Rolks Vermächtnis"/>
+    <gate to="Söldners Rache"/>
+    <gate to="Kunklus Fluss"/>
+  </sector>
+  <sector id="Kunklus Fluss" by="Boronen" x="8" y= "12">
+    <gate to="Stolz des Königreichs"/>
+    <gate to="Elfenbeinreich"/>
+  </sector>
+  <sector id="Menelaus Paradies" by="Boronen" x="19" y= "2">
+    <gate to="Getsu Fune"/>
+    <gate to="X. S. 597"/>
+    <gate to="Blauer Rüssel"/>
+  </sector>
+  <sector id="Blauer Rüssel" by="Boronen" x="19" y= "3">
+    <gate to="Menelaus Paradies"/>
+    <gate to="Meer der Fantasie"/>
+  </sector>
+  <sector id="Meer der Fantasie" by="Boronen" x="19" y= "4">
+    <gate to="Blauer Rüssel"/>
+    <gate to="Hilas Freude"/>
+    <gate to="Familie Ryk"/>
+  </sector>
+  <sector id="Hilas Freude" by="Boronen" x="18" y= "4">
+    <gate to="Meer der Fantasie"/>
+    <gate to="Ghins Flucht"/>
+  </sector>
+  <sector id="Hafen der Ruhe" by="Boronen" x="3" y= "14">
+    <gate to="Familie Rhy"/>
+    <gate to="Dunkle Wasser"/>
+    <gate to="Karge Küste"/>
+    <gate to="Großes Riff"/>
+  </sector>
+  <sector id="Tiefen der Stille" by="Boronen" x="1" y= "14">
+    <gate to="Dunkle Wasser"/>
+  </sector>
+  <sector id="Dunkle Wasser" by="Boronen" x="2" y= "14">
+    <gate to="Hafen der Ruhe"/>
+    <gate to="Tiefen der Stille"/>
+    <gate to="Schimmernde Ströme"/>
+  </sector>
+  <sector id="Karge Küste" by="Boronen" x="4" y= "14">
+    <gate to="Hafen der Ruhe"/>
+    <gate to="Priesters Schutzort"/>
+    <gate to="Händlers Freude"/>
+  </sector>
+  <sector id="Schimmernde Ströme" by="Boronen" x="2" y= "15">
+    <gate to="Dunkle Wasser"/>
+    <gate to="Großes Riff"/>
+    <gate to="Verlorene Tiefen"/>
+  </sector>
+  <sector id="Großes Riff" by="Boronen" x="3" y= "15">
+    <gate to="Hafen der Ruhe"/>
+    <gate to="Schimmernde Ströme"/>
+    <gate to="Händlers Freude"/>
+    <gate to="Nebel des Elysiums"/>
+  </sector>
+  <sector id="Nebel des Elysiums" by="Boronen" x="3" y= "16">
+    <gate to="Großes Riff"/>
+    <gate to="Verlorene Tiefen"/>
+    <gate to="Unbekannter Sektor 02-16"/>
+  </sector>
+  <sector id="Aquatischer Abgrund" by="Boronen" x="17" y= "15">
+    <gate to="Rolks Höhlen"/>
+    <gate to="Flammender Kelch"/>
+  </sector>
+  <sector id="Rolks Höhlen" by="Boronen" x="18" y= "15">
+    <gate to="Aquatischer Abgrund"/>
+    <gate to="Seegras Abdrift"/>
+    <gate to="Neue Gelegenheit"/>
+  </sector>
+  <sector id="Seegras Abdrift" by="Boronen" x="19" y= "15">
+    <gate to="Ende des Glücks"/>
+    <gate to="Rolks Höhlen"/>
+  </sector>
+  <sector id="Flammender Kelch" by="Boronen" x="17" y= "16">
+    <gate to="Aquatischer Abgrund"/>
+    <gate to="Neue Grenze"/>
+    <gate to="Neue Gelegenheit"/>
+    <gate to="X. S. 865"/>
+  </sector>
+
+  <!-- Goner Sektoren -->
+  <sector id="Elysium des Lichts" by="Goner" x="15" y= "5">
+    <gate to="Schatzkammer"/>
+  </sector>
+  <sector id="Templers Horizont" by="Goner" x="17" y= "7">
+    <gate to="Mönchs Rückzug"/>
+  </sector>
+  <sector id="Mönchs Rückzug" by="Goner" x="18" y= "7">
+    <gate to="Templers Horizont"/>
+    <gate to="Polarstern"/>
+  </sector>
+
+  <!-- Khaak Kernsektoren -->
+  <sector id="Khaak S. 1" by="Khaak" x="15" y= "12">
+  </sector>
+  <sector id="Khaak S. 2" by="Khaak" x="17" y= "12">
+  </sector>
+  <sector id="Khaak S. 3" by="Khaak" x="16" y= "13">
+  </sector>
+  <sector id="Khaak S. 4" by="Khaak" x="15" y= "14">
+  </sector>
+  <sector id="Khaak S. 5" by="Khaak" x="17" y= "14">
+  </sector>
+  <sector id="Khaak S. 6" by="Khaak" x="22" y= "15">
+    <gate to="Kaos Fehler"/>
+  </sector>
+
+  <!-- Paraniden Kernsektoren -->
+  <sector id="Minen des Imperators" by="Paraniden" x="1" y= "7">
+    <gate to="Wolkenbasis SW"/>
+    <gate to="Paranid Prime"/>
+  </sector>
+  <sector id="Paranid Prime" by="Paraniden" x="2" y= "7">
+    <gate to="Minen des Imperators"/>
+    <gate to="Priesterringe"/>
+    <gate to="Imperialer Grenzbezirk"/>
+  </sector>
+  <sector id="Priesterringe" by="Paraniden" x="3" y= "7">
+    <gate to="Paranid Prime"/>
+    <gate to="Priesters Gnade"/>
+    <gate to="Herzogs Reich"/>
+  </sector>
+  <sector id="Priesters Gnade" by="Paraniden" x="4" y= "7">
+    <gate to="Split Feuer"/>
+    <gate to="Priesterringe"/>
+    <gate to="Imperators Graben"/>
+  </sector>
+  <sector id="Imperialer Grenzbezirk" by="Paraniden" x="2" y= "8">
+    <gate to="Paranid Prime"/>
+    <gate to="Grausamer Vorstoß"/>
+    <gate to="Herzogs Reich"/>
+    <gate to="Predigers Einsamkeit"/>
+  </sector>
+  <sector id="Herzogs Reich" by="Paraniden" x="3" y= "8">
+    <gate to="Priesterringe"/>
+    <gate to="Imperialer Grenzbezirk"/>
+    <gate to="Imperators Graben"/>
+  </sector>
+  <sector id="Imperators Graben" by="Paraniden" x="4" y= "8">
+    <gate to="Priesters Gnade"/>
+    <gate to="Herzogs Reich"/>
+    <gate to="Reich des Pontifex"/>
+  </sector>
+  <sector id="Predigers Einsamkeit" by="Paraniden" x="2" y= "9">
+    <gate to="Imperialer Grenzbezirk"/>
+    <gate to="Herzogs Vision"/>
+  </sector>
+  <sector id="Reich des Pontifex" by="Paraniden" x="4" y= "9">
+    <gate to="Imperators Graben"/>
+    <gate to="Dreieinigkeit"/>
+  </sector>
+  <sector id="Herzogs Vision" by="Paraniden" x="2" y= "10">
+    <gate to="Predigers Einsamkeit"/>
+    <gate to="Weisheit des Imperators"/>
+  </sector>
+  <sector id="Weisheit des Imperators" by="Paraniden" x="3" y= "10">
+    <gate to="Herzogs Vision"/>
+    <gate to="Dreieinigkeit"/>
+  </sector>
+  <sector id="Dreieinigkeit" by="Paraniden" x="4" y= "10">
+    <gate to="Reich des Pontifex"/>
+    <gate to="Weisheit des Imperators"/>
+    <gate to="Predigers Zuflucht"/>
+    <gate to="Zweifelhafte Forderung"/>
+  </sector>
+  <sector id="Predigers Zuflucht" by="Paraniden" x="5" y= "10">
+    <gate to="Dreieinigkeit"/>
+    <gate to="Strand der Ewigkeit"/>
+  </sector>
+
+  <!-- Paraniden Außensektoren -->
+  <sector id="Elfenbeinreich" by="Paraniden" x="8" y= "13">
+    <gate to="Kunklus Fluss"/>
+    <gate to="Yohanis Verlust"/>
+    <gate to="Hermits Hafen"/>
+  </sector>
+  <sector id="Hermits Hafen" by="Paraniden" x="9" y= "13">
+    <gate to="Elfenbeinreich"/>
+    <gate to="Priesters Schutzort"/>
+  </sector>
+  <sector id="Priesters Schutzort" by="Paraniden" x="9" y= "14">
+    <gate to="Hermits Hafen"/>
+    <gate to="Karge Küste"/>
+    <gate to="Reich des Kardinals"/>
+    <gate to="Glaubensquell"/>
+  </sector>
+  <sector id="Reich des Kardinals" by="Paraniden" x="10" y= "14">
+    <gate to="Moo-Kyes Rache"/>
+    <gate to="Priesters Schutzort"/>
+    <gate to="Heiliges Relikt"/>
+    <gate to="Friars Rückzug"/>
+  </sector>
+  <sector id="Heiliges Relikt" by="Paraniden" x="11" y= "14">
+    <gate to="Reich des Kardinals"/>
+    <gate to="Zwei Welten"/>
+    <gate to="Ruhe des Pontifex"/>
+  </sector>
+  <sector id="Glaubensquell" by="Paraniden" x="9" y= "15">
+    <gate to="Priesters Schutzort"/>
+    <gate to="Friars Rückzug"/>
+    <gate to="Unheilige Herkunft"/>
+  </sector>
+  <sector id="Friars Rückzug" by="Paraniden" x="10" y= "15">
+    <gate to="Reich des Kardinals"/>
+    <gate to="Glaubensquell"/>
+    <gate to="Ruhe des Pontifex"/>
+    <gate to="Gesegnetes Feuer"/>
+  </sector>
+  <sector id="Ruhe des Pontifex" by="Paraniden" x="11" y= "15">
+    <gate to="Heiliges Relikt"/>
+    <gate to="Friars Rückzug"/>
+    <gate to="Unbekannter Sektor 11-14"/>
+    <gate to="Triumph der Föderation"/>
+  </sector>
+  <sector id="Unheilige Herkunft" by="Paraniden" x="9" y= "16">
+    <gate to="Glaubensquell"/>
+    <gate to="Unbekannter Sektor 07-15"/>
+    <gate to="Gesegnetes Feuer"/>
+  </sector>
+  <sector id="Gesegnetes Feuer" by="Paraniden" x="10" y= "16">
+    <gate to="Friars Rückzug"/>
+    <gate to="Unheilige Herkunft"/>
+    <gate to="Triumph der Föderation"/>
+  </sector>
+   <sector id="Xaars Herrschaftbereich" by="Paraniden" x="15" y= "18">
+    <gate to="Xerxes Gral"/>
+  </sector>
+   <sector id="Xerxes Gral" by="Paraniden" x="16" y= "18">
+    <gate to="Atlantia Prime"/>
+    <gate to="Xaars Herrschaftbereich"/>
+    <gate to="Sieg des Imperators"/>
+  </sector>
+   <sector id="Sieg des Imperators" by="Paraniden" x="17" y= "18">
+    <gate to="Xerxes Gral"/>
+    <gate to="Verblasstes Glück"/>
+  </sector>
+
+  <!-- Piraten Sektoren -->
+  <sector id="Farnhams Legende" by="Piraten" x="4" y= "4">
+    <gate to="Wolken der Atreus"/>
+    <gate to="Bala Gis Freude"/>
+    <gate to="Elenas Glück"/>
+  </sector>
+  <sector id="Bala Gis Freude" by="Piraten" x="5" y= "4">
+    <gate to="Farnhams Legende"/>
+    <gate to="Olmanckets Vertrag"/>
+  </sector>
+  <sector id="Olmanckets Vertrag" by="Piraten" x="5" y= "5">
+    <gate to="Bala Gis Freude"/>
+    <gate to="Elenas Glück"/>
+    <gate to="Brennans Triumph"/>
+  </sector>
+  <sector id="Split Feuer" by="Piraten" x="4" y= "6">
+    <gate to="Elenas Glück"/>
+    <gate to="Brennans Triumph"/>
+    <gate to="Priesters Gnade"/>
+  </sector>
+  <sector id="Brennans Triumph" by="Piraten" x="5" y= "6">
+    <gate to="Olmanckets Vertrag"/>
+    <gate to="Split Feuer"/>
+    <gate to="Dannas Chance"/>
+  </sector>
+  <sector id="Dannas Chance" by="Piraten" x="5" y= "7">
+    <gate to="Brennans Triumph"/>
+    <gate to="Nopileos Memorial"/>
+    <gate to="Weg zur Freiheit"/>
+  </sector>
+  <sector id="Nopileos Memorial" by="Piraten" x="6" y= "7">
+    <gate to="Dannas Chance"/>
+    <gate to="Hatikvahs Glaube"/>
+    <gate to="X. S. 101"/>
+  </sector>
+  <sector id="Hatikvahs Glaube" by="Piraten" x="7" y= "7">
+    <gate to="Thuruks Bart"/>
+    <gate to="Nopileos Memorial"/>
+    <gate to="Aladnas Hügel"/>
+    <gate to="Rotes Wagnis"/>
+  </sector>
+  <sector id="Rotes Wagnis" by="Piraten" x="7" y= "8">
+    <gate to="Hatikvahs Glaube"/>
+  </sector>
+  <sector id="Söldners Rache" by="Piraten" x="9" y= "11">
+    <gate to="Stolz des Königreichs"/>
+    <gate to="LooManckStrats Vermächtnis"/>
+  </sector>
+  <sector id="LooManckStrats Vermächtnis" by="Piraten" x="10" y= "11">
+    <gate to="Zweifel des Ceos"/>
+    <gate to="Söldners Rache"/>
+    <gate to="Unterbrochene Träume"/>
+    <gate to="Mi Tons Zuflucht"/>
+  </sector>
+  <sector id="Unterbrochene Träume" by="Piraten" x="11" y= "11">
+    <gate to="LooManckStrats Vermächtnis"/>
+    <gate to="Tiefen der Rache"/>
+  </sector>
+  <sector id="Tiefen der Rache" by="Piraten" x="12" y= "11">
+    <gate to="Unterbrochene Träume"/>
+    <gate to="Cyclones Zorn"/>
+  </sector>
+  <sector id="Mi Tons Zuflucht" by="Piraten" x="10" y= "12">
+    <gate to="LooManckStrats Vermächtnis"/>
+    <gate to="Moo-Kyes Rache"/>
+  </sector>
+  <sector id="Cyclones Zorn" by="Piraten" x="12" y= "12">
+    <gate to="Tiefen der Rache"/>
+    <gate to="Nst's Rückzug"/>
+    <gate to="Gulu Gis Legende"/>
+  </sector>
+  <sector id="Moo-Kyes Rache" by="Piraten" x="10" y= "13">
+    <gate to="Mi Tons Zuflucht"/>
+    <gate to="Talmanckutalls Domäne"/>
+    <gate to="Reich des Kardinals"/>
+  </sector>
+  <sector id="Talmanckutalls Domäne" by="Piraten" x="11" y= "13">
+    <gate to="Moo-Kyes Rache"/>
+    <gate to="Gulu Gis Legende"/>
+  </sector>
+  <sector id="Gulu Gis Legende" by="Piraten" x="12" y= "13">
+    <gate to="Cyclones Zorn"/>
+    <gate to="Talmanckutalls Domäne"/>
+  </sector>
+  <sector id="Die Krypta" by="Piraten" x="21" y= "9">
+    <gate to="Handelshafen"/>
+    <gate to="Verlorene Profite"/>
+  </sector>
+  <sector id="Nst's Rückzug" by="Piraten" x="18" y= "10">
+    <gate to="Cyclones Zorn"/>
+    <gate to="Unbekannter Sektor 18-09"/>
+  </sector>
+  <sector id="Mahlstrom" by="Piraten" x="20" y= "10">
+    <gate to="Handelshafen"/>
+    <gate to="Unbekannter Sektor 18-09"/>
+    <gate to="Verlorene Profite"/>
+  </sector>
+  <sector id="Verlorene Tiefen" by="Piraten" x="2" y= "16">
+    <gate to="Schimmernde Ströme"/>
+    <gate to="Zephrain"/>
+    <gate to="Nebel des Elysiums"/>
+  </sector>
+  <sector id="Zephrain" by="Piraten" x="1" y= "16">
+    <gate to="Verlorene Tiefen"/>
+  </sector>
+  <sector id="Verborgene Kostbarkeit" by="Piraten" x="11" y= "17">
+    <gate to="Triumph der Föderation"/>
+  </sector>
+  <sector id="Samtene Tränen" by="Piraten" x="20" y= "17">
+    <gate to="Kaos Feste"/>
+    <gate to="Profitcenter Beta"/>
+    <gate to="Minen von Kaderak"/>
+    <gate to="Verschwindende Echos"/>
+  </sector>
+  <sector id="Minen von Kaderak" by="Piraten" x="21" y= "17">
+    <gate to="Samtene Tränen"/>
+  </sector>
+  <sector id="Verschwindende Echos" by="Piraten" x="20" y= "18">
+    <gate to="Samtene Tränen"/>
+  </sector>
+
+  <!-- Split Kernsektoren -->
+  <sector id="Familie Whi" by="Split" x="7" y= "1">
+    <gate to="Teladi Profit"/>
+    <gate to="Aktionärsgewinn"/>
+    <gate to="Familie Zein"/>
+  </sector>
+  <sector id="Familie Zein" by="Split" x="7" y= "2">
+    <gate to="Familie Whi"/>
+    <gate to="Zeins Sieg"/>
+    <gate to="Thuruks Stolz"/>
+  </sector>
+  <sector id="Zeins Sieg" by="Split" x="8" y= "2">
+    <gate to="Familie Zein"/>
+  </sector>
+  <sector id="Thuruks Stolz" by="Split" x="7" y= "3">
+    <gate to="Familie Zein"/>
+    <gate to="Familienstolz"/>
+    <gate to="Ronkars Feuer"/>
+  </sector>
+  <sector id="Familienstolz" by="Split" x="8" y= "3">
+    <gate to="Thuruks Stolz"/>
+    <gate to="Ronkars Wolken"/>
+  </sector>
+  <sector id="Zuflucht des Patriarchen" by="Split" x="10" y= "3">
+    <gate to="Unbekannter Sektor 10-02"/>
+    <gate to="Chos Niederlage"/>
+  </sector>
+  <sector id="Ronkars Feuer" by="Split" x="7" y= "4">
+    <gate to="Thuruks Stolz"/>
+    <gate to="Ronkars Wolken"/>
+    <gate to="Familie Rhonkar"/>
+  </sector>
+  <sector id="Ronkars Wolken" by="Split" x="8" y= "4">
+    <gate to="Familienstolz"/>
+    <gate to="Ronkars Feuer"/>
+    <gate to="Tharkas Stern"/>
+    <gate to="Ronkars Sieg"/>
+  </sector>
+  <sector id="Tharkas Stern" by="Split" x="9" y= "4">
+    <gate to="Ronkars Wolken"/>
+    <gate to="Chos Niederlage"/>
+  </sector>
+  <sector id="Chos Niederlage" by="Split" x="10" y= "4">
+    <gate to="Zuflucht des Patriarchen"/>
+    <gate to="Tharkas Stern"/>
+    <gate to="Heim des Patriarchen"/>
+  </sector>
+  <sector id="Familie Rhonkar" by="Split" x="7" y= "5">
+    <gate to="Ronkars Feuer"/>
+    <gate to="Ronkars Sieg"/>
+    <gate to="Thuruks Bart"/>
+  </sector>
+  <sector id="Ronkars Sieg" by="Split" x="8" y= "5">
+    <gate to="Ronkars Wolken"/>
+    <gate to="Familie Rhonkar"/>
+  </sector>
+  <sector id="Heim des Patriarchen" by="Split" x="10" y= "5">
+    <gate to="Chos Niederlage"/>
+    <gate to="Zwei Riesen"/>
+    <gate to="Nathans Burg"/>
+  </sector>
+  <sector id="Thuruks Bart" by="Split" x="7" y= "6">
+    <gate to="Familie Rhonkar"/>
+    <gate to="Firmenstolz"/>
+    <gate to="Hatikvahs Glaube"/>
+  </sector>
+
+  <!-- Split Außensektoren -->
+  <sector id="Familie Tkr" by="Split" x="15" y= "4">
+    <gate to="Heimat des Glücks"/>
+    <gate to="Tkrs Enteigung"/>
+  </sector>
+  <sector id="Tkrs Enteigung" by="Split" x="16" y= "4">
+    <gate to="Familie Tkr"/>
+    <gate to="Ghins Flucht"/>
+  </sector>
+  <sector id="Ghins Flucht" by="Split" x="17" y= "4">
+    <gate to="Tkrs Enteigung"/>
+    <gate to="Hilas Freude"/>
+    <gate to="Familie Njy"/>
+  </sector>
+  <sector id="Familie Njy" by="Split" x="17" y= "5">
+    <gate to="Ghins Flucht"/>
+    <gate to="Njys Hinterhalt"/>
+    <gate to="Thyns Abgrund"/>
+  </sector>
+  <sector id="Njys Hinterhalt" by="Split" x="18" y= "5">
+    <gate to="Familie Njy"/>
+    <gate to="Familie Ryk"/>
+  </sector>
+  <sector id="Familie Ryk" by="Split" x="19" y= "5">
+    <gate to="Meer der Fantasie"/>
+    <gate to="Njys Hinterhalt"/>
+    <gate to="Familie Z'rt"/>
+  </sector>
+  <sector id="Thyns Abgrund" by="Split" x="17" y= "6">
+    <gate to="Familie Njy"/>
+    <gate to="X. S. 472"/>
+  </sector>
+  <sector id="Familie Z'rt" by="Split" x="19" y= "6">
+    <gate to="Familie Ryk"/>
+    <gate to="Z'rts Machtbereich"/>
+  </sector>
+  <sector id="Z'rts Machtbereich" by="Split" x="20" y= "6">
+    <gate to="Familie Z'rt"/>
+    <gate to="Unbekannter Sektor 20-05"/>
+    <gate to="X. S. 598"/>
+  </sector>
+  <sector id="Rhys Kreuzzug" by="Split" x="2" y= "12">
+    <gate to="Rhys Begierde"/>
+  </sector>
+  <sector id="Rhys Begierde" by="Split" x="3" y= "12">
+    <gate to="Rhys Kreuzzug"/>
+    <gate to="Turm der Finanzen"/>
+    <gate to="Familie Rhy"/>
+  </sector>
+  <sector id="Familie Rhy" by="Split" x="3" y= "13">
+    <gate to="Rhys Begierde"/>
+    <gate to="Hafen der Ruhe"/>
+  </sector>
+  <sector id="Kaos Herrschaftsgebiet" by="Split" x="19" y= "16">
+    <gate to="Neue Gelegenheit"/>
+    <gate to="Kaos Feste"/>
+    <gate to="Profitcenter Beta"/>
+  </sector>
+  <sector id="Kaos Feste" by="Split" x="20" y= "16">
+    <gate to="Kaos Herrschaftsgebiet"/>
+    <gate to="Kaos Fehler"/>
+    <gate to="Samtene Tränen"/>
+  </sector>
+  <sector id="Kaos Fehler" by="Split" x="21" y= "15">
+    <gate to="Kaos Feste"/>
+    <gate to="Khaak S. 6"/>
+  </sector>
+  <sector id="Familie Kao" by="Split" x="19" y= "18">
+    <gate to="Profitcenter Beta"/>
+    <gate to="Verblasstes Glück"/>
+  </sector>
+
+  <!-- Teladi Kernsektoren -->
+  <sector id="Ceos Buckzoid" by="Teladi" x="5" y= "1">
+    <gate to="Menelaus Grenze"/>
+    <gate to="Teladi Profit"/>
+    <gate to="Profitloch"/>
+  </sector>
+  <sector id="Teladi Profit" by="Teladi" x="6" y= "1">
+    <gate to="Ceos Buckzoid"/>
+    <gate to="Familie Whi"/>
+    <gate to="Profitbrunnen"/>
+  </sector>
+  <sector id="Profitloch" by="Teladi" x="5" y= "2">
+    <gate to="Ceos Buckzoid"/>
+    <gate to="Profitbrunnen"/>
+    <gate to="Raumkrautgraben"/>
+  </sector>
+  <sector id="Profitbrunnen" by="Teladi" x="6" y= "2">
+    <gate to="Teladi Profit"/>
+    <gate to="Profitloch"/>
+    <gate to="Großer Profit"/>
+  </sector>
+  <sector id="Raumkrautgraben" by="Teladi" x="5" y= "3">
+    <gate to="Profitloch"/>
+    <gate to="Großer Profit"/>
+  </sector>
+  <sector id="Großer Profit" by="Teladi" x="6" y= "3">
+    <gate to="Profitbrunnen"/>
+    <gate to="Raumkrautgraben"/>
+    <gate to="Blauer Profit"/>
+  </sector>
+  <sector id="Blauer Profit" by="Teladi" x="6" y= "4">
+    <gate to="Großer Profit"/>
+    <gate to="Ceos Geist"/>
+  </sector>
+  <sector id="Ceos Geist" by="Teladi" x="6" y= "5">
+    <gate to="Blauer Profit"/>
+    <gate to="Firmenstolz"/>
+  </sector>
+  <sector id="Firmenstolz" by="Teladi" x="6" y= "6">
+    <gate to="Ceos Geist"/>
+    <gate to="Thuruks Bart"/>
+  </sector>
+
+  <!-- Teladi Außensektoren -->
+  <sector id="Stahlkammer" by="Teladi" x="14" y= "1">
+    <gate to="Aktionärsgewinn"/>
+  </sector>
+  <sector id="Aktionärsgewinn" by="Teladi" x="14" y= "2">
+    <gate to="Familie Whi"/>
+    <gate to="Stahlkammer"/>
+    <gate to="Profitminen"/>
+  </sector>
+  <sector id="Profitminen" by="Teladi" x="15" y= "2">
+    <gate to="Aktionärsgewinn"/>
+    <gate to="Heimat des Glücks"/>
+  </sector>
+  <sector id="Heimat des Glücks" by="Teladi" x="15" y= "3">
+    <gate to="Profitminen"/>
+    <gate to="Familie Tkr"/>
+  </sector>
+  <sector id="Zwei Riesen" by="Teladi" x="11" y= "5">
+    <gate to="Heim des Patriarchen"/>
+    <gate to="Mantikor"/>
+    <gate to="Profitcenter Alpha"/>
+  </sector>
+  <sector id="Profitcenter Alpha" by="Teladi" x="11" y= "6">
+    <gate to="Zwei Riesen"/>
+    <gate to="Nathans Burg"/>
+    <gate to="PTNI HQ"/>
+  </sector>
+  <sector id="PTNI HQ" by="Teladi" x="12" y= "6">
+    <gate to="Profitcenter Alpha"/>
+    <gate to="Grüne Schuppe"/>
+  </sector>
+  <sector id="Grüne Schuppe" by="Teladi" x="12" y= "7">
+    <gate to="PTNI HQ"/>
+    <gate to="Nyanas Unterschlupf"/>
+    <gate to="X. S. 347"/>
+  </sector>
+  <sector id="Achtzehn Milliarden" by="Teladi" x="11" y= "8">
+    <gate to="X. S. 347"/>
+    <gate to="Ianamus Zura"/>
+  </sector>
+  <sector id="Ianamus Zura" by="Teladi" x="11" y= "9">
+    <gate to="Achtzehn Milliarden"/>
+    <gate to="Neuer Verdienst"/>
+  </sector>
+  <sector id="Neuer Verdienst" by="Teladi" x="10" y= "9">
+    <gate to="Habgier"/>
+    <gate to="Ianamus Zura"/>
+    <gate to="Zweifel des Ceos"/>
+  </sector>
+  <sector id="Zweifel des Ceos" by="Teladi" x="10" y= "10">
+    <gate to="Neuer Verdienst"/>
+    <gate to="Breiter Graben"/>
+    <gate to="LooManckStrats Vermächtnis"/>
+  </sector>
+  <sector id="Zweifelhafte Forderung" by="Teladi" x="4" y= "11">
+    <gate to="Dreieinigkeit"/>
+    <gate to="Turm der Finanzen"/>
+  </sector>
+  <sector id="Turm der Finanzen" by="Teladi" x="4" y= "12">
+    <gate to="Zweifelhafte Forderung"/>
+    <gate to="Rhys Begierde"/>
+    <gate to="Ceos Profit"/>
+  </sector>
+  <sector id="Ceos Profit" by="Teladi" x="5" y= "12">
+    <gate to="Turm der Finanzen"/>
+    <gate to="Teladi Glück"/>
+  </sector>
+  <sector id="Teladi Glück" by="Teladi" x="6" y= "12">
+    <gate to="Rolks Ozean"/>
+    <gate to="Ceos Profit"/>
+    <gate to="Unternehmen Yohanis"/>
+  </sector>
+  <sector id="Unternehmen Yohanis" by="Teladi" x="7" y= "12">
+    <gate to="Teladi Glück"/>
+    <gate to="Yohanis Verlust"/>
+  </sector>
+  <sector id="Yohanis Verlust" by="Teladi" x="7" y= "13">
+    <gate to="Unternehmen Yohanis"/>
+    <gate to="Elfenbeinreich"/>
+  </sector>
+  <sector id="Profitabler Handel" by="Teladi" x="20" y= "8">
+    <gate to="X. S. 598"/>
+    <gate to="Aquilars Gürtel"/>
+    <gate to="Handelshafen"/>
+  </sector>
+  <sector id="Handelshafen" by="Teladi" x="20" y= "9">
+    <gate to="Profitabler Handel"/>
+    <gate to="Die Krypta"/>
+    <gate to="Mahlstrom"/>
+  </sector>
+  <sector id="Verlorene Profite" by="Teladi" x="21" y= "10">
+    <gate to="Die Krypta"/>
+    <gate to="Mahlstrom"/>
+    <gate to="Ende des Glücks"/>
+  </sector>
+   <sector id="Ende des Glücks" by="Teladi" x="21" y= "11">
+    <gate to="Verlorene Profite"/>
+    <gate to="Seegras Abdrift"/>
+  </sector>
+  <sector id="Neue Gelegenheit" by="Teladi" x="18" y= "16">
+    <gate to="Rolks Höhlen"/>
+    <gate to="Flammender Kelch"/>
+    <gate to="Kaos Herrschaftsgebiet"/>
+    <gate to="Weiterführender Reichtum"/>
+  </sector>
+  <sector id="Weiterführender Reichtum" by="Teladi" x="18" y= "17">
+    <gate to="Neue Gelegenheit"/>
+    <gate to="Profitcenter Beta"/>
+    <gate to="Verblasstes Glück"/>
+  </sector>
+  <sector id="Profitcenter Beta" by="Teladi" x="19" y= "17">
+    <gate to="Kaos Herrschaftsgebiet"/>
+    <gate to="Weiterführender Reichtum"/>
+    <gate to="Samtene Tränen"/>
+    <gate to="Familie Kao"/>
+  </sector>
+  <sector id="Verblasstes Glück" by="Teladi" x="18" y= "18">
+    <gate to="Weiterführender Reichtum"/>
+    <gate to="Sieg des Imperators"/>
+    <gate to="Familie Kao"/>
+  </sector>
+
+  <!-- Terraner Sektoren -->
+  <sector id="Oortsche Wolke 1" by="Terraner" x="10" y= "1">
+    <gate to="Pluto"/>
+  </sector>
+  <sector id="Pluto" by="Terraner" x="11" y= "1">
+    <gate to="Oortsche Wolke 1"/>
+    <gate to="Neptun"/>
+  </sector>
+  <sector id="Neptun" by="Terraner" x="12" y= "1">
+    <gate to="Pluto"/>
+    <gate to="Uranus"/>
+    <gate to="Oortsche Wolke 2"/>
+  </sector>
+  <sector id="Uranus" by="Terraner" x="13" y= "1">
+    <gate to="Neptun"/>
+    <gate to="Saturn"/>
+  </sector>
+  <sector id="Oortsche Wolke 2" by="Terraner" x="12" y= "2">
+    <gate to="Neptun"/>
+    <gate to="Saturn"/>
+  </sector>
+  <sector id="Saturn" by="Terraner" x="13" y= "2">
+    <gate to="Uranus"/>
+    <gate to="Oortsche Wolke 2"/>
+    <gate to="Jupiter"/>
+  </sector>
+  <sector id="Jupiter" by="Terraner" x="13" y= "3">
+    <gate to="Saturn"/>
+    <gate to="Mars"/>
+  </sector>
+  <sector id="Der Mond" by="Terraner" x="14" y= "3">
+    <gate to="Erde"/>
+  </sector>
+  <sector id="Merkur" by="Terraner" x="12" y= "4">
+    <gate to="Mars"/>
+  </sector>
+  <sector id="Mars" by="Terraner" x="13" y= "4">
+    <gate to="Jupiter"/>
+    <gate to="Merkur"/>
+    <gate to="Erde"/>
+    <gate to="Venus"/>
+  </sector>
+  <sector id="Erde" by="Terraner" x="14" y= "4">
+    <gate to="Der Mond"/>
+    <gate to="Mars"/>
+    <gate to="Ketzers Untergang"/>
+  </sector>
+  <sector id="Venus" by="Terraner" x="13" y= "5">
+    <gate to="Mars"/>
+  </sector>
+  <sector id="Ketzers Untergang" by="Terraner" x="14" y= "5">
+    <gate to="Erde"/>
+    <gate to="Zentrum der Arbeit"/>
+  </sector>
+
+  <!-- Unbekannte Sektoren -->
+  <sector id="Grausamer Vorstoß" by="Unbekannt" x="1" y= "8">
+    <gate to="Imperialer Grenzbezirk"/>
+    <gate to="Ocracokes Sturm"/>
+  </sector>
+  <sector id="Unbekannter Sektor 16-00" by="Unbekannt" x="17" y= "1">
+    <gate to="X. S. 534"/>
+  </sector>
+  <sector id="Unbekannter Sektor 10-02" by="Unbekannt" x="11" y= "3">
+    <gate to="Zuflucht des Patriarchen"/>
+  </sector>
+  <sector id="Habgier" by="Unbekannt" x="9" y= "9">
+    <gate to="Montalaar"/>
+    <gate to="Neuer Verdienst"/>
+  </sector>
+  <sector id="Unbekannter Sektor 07-15" by="Unbekannt" x="8" y= "16">
+    <gate to="Unheilige Herkunft"/>
+    <gate to="Unbekannter Sektor 07-16"/>
+  </sector>
+  <sector id="Unbekannter Sektor 07-16" by="Unbekannt" x="8" y= "17">
+    <gate to="Unbekannter Sektor 07-15"/>
+  </sector>
+  <sector id="Unbekannter Sektor 07-05" by="Unbekannt" x="8" y= "6">
+    <gate to="Proxima Centauri"/>
+  </sector>
+  <sector id="Unbekannter Sektor 11-14" by="Unbekannt" x="12" y= "15">
+    <gate to="Ruhe des Pontifex"/>
+  </sector>
+  <sector id="Unbekannter Sektor 20-05" by="Unbekannt" x="21" y= "6">
+    <gate to="Z'rts Machtbereich"/>
+  </sector>
+  <sector id="Unbekannter Sektor 18-09" by="Unbekannt" x="19" y= "10">
+    <gate to="Nst's Rückzug"/>
+    <gate to="Mahlstrom"/>
+    <gate to="Unbekannter Sektor 18-10"/>
+  </sector>
+  <sector id="Unbekannter Sektor 18-10" by="Unbekannt" x="19" y= "11">
+    <gate to="Unbekannter Sektor 18-09"/>
+    <gate to="Letzte Grenze"/>
+  </sector>
+  <sector id="Letzte Grenze" by="Unbekannt" x="18" y= "11">
+    <gate to="Unbekannter Sektor 18-10"/>
+  </sector>
+  <sector id="Unbekannter Sektor 02-16" by="Unbekannt" x="3" y= "17">
+    <gate to="Nebel des Elysiums"/>
+  </sector>
+  <sector id="Unbekannter Sektor 06-15" by="Unbekannt" x="7" y= "16">
+    <gate to="Yurikazi"/>
+  </sector>
+  <sector id="Unbekannter Sektor 04-17" by="Unbekannt" x="5" y= "18">
+    <gate to="Oi"/>
+  </sector>
+  <sector id="Weg zur Freiheit" by="Unbekannt" x="5" y= "8">
+    <gate to="Dannas Chance"/>
+  </sector>
+
+  <!-- Xenon Sektoren -->
+  <sector id="X. Grid 1" by="Xenon" x="15" y= "10">
+    <gate to="X. KS. 5"/>
+  </sector>
+  <sector id="X. Grid 2" by="Xenon" x="13" y= "11">
+    <gate to="X. KS. 4"/>
+  </sector>
+  <sector id="X. KS. 1" by="Xenon" x="14" y= "8">
+    <gate to="X. S. 547"/>
+    <gate to="X. KS. 3"/>
+  </sector>
+  <sector id="X. KS. 2" by="Xenon" x="13" y= "9">
+    <gate to="X. S. 547"/>
+    <gate to="X. KS. 3"/>
+  </sector>
+  <sector id="X. KS. 3" by="Xenon" x="14" y= "9">
+    <gate to="X. KS. 1"/>
+    <gate to="X. KS. 2"/>
+    <gate to="X. KS. 5"/>
+  </sector>
+  <sector id="X. KS. 4" by="Xenon" x="13" y= "10">
+    <gate to="X. KS. 5"/>
+    <gate to="X. Grid 2"/>
+  </sector>
+  <sector id="X. KS. 5" by="Xenon" x="14" y= "10">
+    <gate to="X. KS. 3"/>
+    <gate to="X. KS. 4"/>
+    <gate to="X. Grid 1"/>
+  </sector>
+  <sector id="X. S. 101" by="Xenon" x="6" y= "8">
+    <gate to="Nopileos Memorial"/>
+  </sector>
+  <sector id="X. S. 256" by="Xenon" x="9" y= "5">
+    <gate to="Proxima Centauri"/>
+  </sector>
+  <sector id="X. S. 258" by="Xenon" x="5" y= "16">
+    <gate to="Hafen"/>
+  </sector>
+  <sector id="X. S. 347" by="Xenon" x="12" y= "8">
+    <gate to="Grüne Schuppe"/>
+    <gate to="Achtzehn Milliarden"/>
+    <gate to="X. S. 547"/>
+  </sector>
+  <sector id="X. S. 352" by="Xenon" x="7" y= "9">
+    <gate to="Glücksplaneten"/>
+  </sector>
+  <sector id="X. S. 472" by="Xenon" x="16" y= "6">
+    <gate to="Thyns Abgrund"/>
+    <gate to="Schwarze Sonne"/>
+  </sector>
+  <sector id="X. S. 534" by="Xenon" x="18" y= "1">
+    <gate to="Unbekannter Sektor 16-00"/>
+    <gate to="Getsu Fune"/>
+  </sector>
+  <sector id="X. S. 547" by="Xenon" x="13" y= "8">
+    <gate to="X. S. 347"/>
+    <gate to="X. KS. 1"/>
+    <gate to="X. KS. 2"/>
+  </sector>
+  <sector id="X. S. 597" by="Xenon" x="20" y= "2">
+    <gate to="Menelaus Paradies"/>
+    <gate to="X. S. 596"/>
+  </sector>
+  <sector id="X. S. 596" by="Xenon" x="20" y= "1">
+    <gate to="X. S. 597"/>
+  </sector>
+  <sector id="X. S. 598" by="Xenon" x="20" y= "7">
+    <gate to="Z'rts Machtbereich"/>
+    <gate to="Profitabler Handel"/>
+  </sector>
+  <sector id="X. S. 865" by="Xenon" x="17" y= "17">
+    <gate to="Flammender Kelch"/>
+  </sector>
+
+  <!-- Yaki Sektoren -->
+  <sector id="Ocracokes Sturm" by="Yaki" x="1" y= "9">
+    <gate to="Grausamer Vorstoß"/>
+    <gate to="Senators Ödland"/>
+  </sector>
+  <sector id="Senators Ödland" by="Yaki" x="1" y= "10">
+    <gate to="Ocracokes Sturm"/>
+    <gate to="Haruna"/>
+  </sector>
+  <sector id="Haruna" by="Yaki" x="1" y= "11">
+    <gate to="Senators Ödland"/>
+    <gate to="Hiei"/>
+    <gate to="Hosho"/>
+  </sector>
+  <sector id="Hiei" by="Yaki" x="2" y= "11">
+    <gate to="Haruna"/>
+    <gate to="Mikasa"/>
+  </sector>
+  <sector id="Hosho" by="Yaki" x="1" y= "12">
+    <gate to="Haruna"/>
+    <gate to="Taiho"/>
+  </sector>
+  <sector id="Taiho" by="Yaki" x="1" y= "13">
+    <gate to="Hosho"/>
+  </sector>
+  <sector id="Mikasa" by="Yaki" x="6" y= "15">
+    <gate to="Hiei"/>
+    <gate to="Yurikazi"/>
+    <gate to="Kiso"/>
+  </sector>
+  <sector id="Yurikazi" by="Yaki" x="7" y= "15">
+    <gate to="Mikasa"/>
+    <gate to="Unbekannter Sektor 06-15"/>
+  </sector>
+  <sector id="Kiso" by="Yaki" x="6" y= "17">
+    <gate to="Mikasa"/>
+    <gate to="Oi"/>
+  </sector>
+  <sector id="Oi" by="Yaki" x="6" y= "18">
+    <gate to="Kiso"/>
+    <gate to="Unbekannter Sektor 04-17"/>
+  </sector>
+
+  <!-- sector id="" by="" x="" y= "">
+    <gate to=""/>
+    <gate to=""/>
+  </sector -->
+
+</xuniverse-map>

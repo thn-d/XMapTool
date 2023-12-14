@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="xuniverse-map">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="sector" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="title" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="sector">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="gate" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" />
+      <xs:attribute name="by" type="xs:string" />
+      <xs:attribute name="x" type="xs:int" />
+      <xs:attribute name="y" type="xs:int" />
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="gate">
+    <xs:complexType>
+      <xs:attribute name="to" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

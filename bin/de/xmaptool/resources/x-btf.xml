@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xuniverse-map title="X - Beyond The Frontier" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xuniverse-map.xsd">
+
+  <!-- Argonen Kernsektoren -->
+  <sector id="Drei Welten" by="Argonen" x="1" y= "2">
+    <gate to="Königstal"/>
+    <gate to="Energiezirkulum"/>
+    <gate to="Wolkenbasis NW"/>
+  </sector>
+  <sector id="Energiezirkulum" by="Argonen" x="2" y= "2">
+    <gate to="Drei Welten"/>
+    <gate to="Antigone Memorial"/>
+    <gate to="Herrons Nebel"/>
+  </sector>
+  <sector id="Antigone Memorial" by="Argonen" x="3" y= "2">
+    <gate to="Energiezirkulum"/>
+    <gate to="Rotes HQ"/>
+  </sector>
+  <sector id="Wolkenbasis NW" by="Argonen" x="1" y= "3">
+    <gate to="Drei Welten"/>
+    <gate to="Herrons Nebel"/>
+    <gate to="Ringo Mond"/>
+  </sector>
+  <sector id="Herrons Nebel" by="Argonen" x="2" y= "3">
+    <gate to="Energiezirkulum"/>
+    <gate to="Wolkenbasis NW"/>
+    <gate to="Rotes HQ"/>
+    <gate to="Argon Prime"/>
+  </sector>
+  <sector id="Rotes HQ" by="Argonen" x="3" y= "3">
+    <gate to="Antigone Memorial"/>
+    <gate to="Herrons Nebel"/>
+    <gate to="Wolken der Atreus"/>
+    <gate to="Linie der Energie"/>
+  </sector>
+  <sector id="Ringo Mond" by="Argonen" x="1" y= "4">
+    <gate to="Wolkenbasis NW"/>
+    <gate to="Argon Prime"/>
+    <gate to="Roter Schein"/>
+  </sector>
+  <sector id="Argon Prime" by="Argonen" x="2" y= "4">
+    <gate to="Herrons Nebel"/>
+    <gate to="Ringo Mond"/>
+    <gate to="Linie der Energie"/>
+    <gate to="Heimat des Lichts"/>
+  </sector>
+  <sector id="Linie der Energie" by="Argonen" x="3" y= "4">
+    <gate to="Rotes HQ"/>
+    <gate to="Argon Prime"/>
+    <gate to="Trantor"/>
+  </sector>
+  <sector id="Roter Schein" by="Argonen" x="1" y= "5">
+    <gate to="Ringo Mond"/>
+    <gate to="Heimat des Lichts"/>
+    <gate to="Wolkenbasis SW"/>
+  </sector>
+  <sector id="Heimat des Lichts" by="Argonen" x="2" y= "5">
+    <gate to="Argon Prime"/>
+    <gate to="Roter Schein"/>
+    <gate to="Trantor"/>
+    <gate to="Erzgürtel"/>
+  </sector>
+  <sector id="Trantor" by="Argonen" x="3" y= "5">
+    <gate to="Linie der Energie"/>
+    <gate to="Heimat des Lichts"/>
+    <gate to="Xenon 3"/>
+    <gate to="Wolkenbasis SO"/>
+  </sector>
+  <sector id="Wolkenbasis SW" by="Argonen" x="1" y= "6">
+    <gate to="Roter Schein"/>
+    <gate to="Erzgürtel"/>
+    <gate to="Minen des Imperators"/>
+  </sector>
+  <sector id="Erzgürtel" by="Argonen" x="2" y= "6">
+    <gate to="Heimat des Lichts"/>
+    <gate to="Wolkenbasis SW"/>
+    <gate to="Wolkenbasis SO"/>
+  </sector>
+  <sector id="Wolkenbasis SO" by="Argonen" x="3" y= "6">
+    <gate to="Trantor"/>
+    <gate to="Erzgürtel"/>
+  </sector>
+  
+  <!-- Boronen Kernsektoren -->
+  <sector id="Königstal" by="Boronen" x="1" y= "1">
+    <gate to="Rolks Reich"/>
+    <gate to="Drei Welten"/>
+  </sector>
+  <sector id="Rolks Reich" by="Boronen" x="2" y= "1">
+    <gate to="Königstal"/>
+    <gate to="Königinhügel"/>
+  </sector>
+  <sector id="Königinhügel" by="Boronen" x="3" y= "1">
+    <gate to="Rolks Reich"/>
+    <gate to="Menelaus Grenze"/>
+  </sector>
+  <sector id="Menelaus Grenze" by="Boronen" x="4" y= "1">
+    <gate to="Königinhügel"/>
+    <gate to="Ceos Buckzoid"/>
+    <gate to="Rolks Los"/>
+  </sector>
+  <sector id="Rolks Los" by="Boronen" x="4" y= "2">
+    <gate to="Menelaus Grenze"/>
+    <gate to="Wolken der Atreus"/>
+  </sector>
+  <sector id="Wolken der Atreus" by="Boronen" x="4" y= "3">
+    <gate to="Rolks Los"/>
+    <gate to="Rotes HQ"/>
+    <gate to="Xenon 1"/>
+  </sector>
+
+  <!-- Paraniden Kernsektoren -->
+  <sector id="Minen des Imperators" by="Paraniden" x="1" y= "7">
+    <gate to="Wolkenbasis SW"/>
+    <gate to="Paranid Prime"/>
+  </sector>
+  <sector id="Paranid Prime" by="Paraniden" x="2" y= "7">
+    <gate to="Minen des Imperators"/>
+    <gate to="Priesterringe"/>
+    <gate to="Imperialer Grenzbezirk"/>
+  </sector>
+  <sector id="Priesterringe" by="Paraniden" x="3" y= "7">
+    <gate to="Paranid Prime"/>
+    <gate to="Priesters Gnade"/>
+    <gate to="Herzogs Reich"/>
+  </sector>
+  <sector id="Priesters Gnade" by="Paraniden" x="4" y= "7">
+    <gate to="Xenon 5"/>
+    <gate to="Priesterringe"/>
+    <gate to="Imperators Graben"/>
+  </sector>
+  <sector id="Imperialer Grenzbezirk" by="Paraniden" x="2" y= "8">
+    <gate to="Paranid Prime"/>
+    <gate to="Herzogs Reich"/>
+  </sector>
+  <sector id="Herzogs Reich" by="Paraniden" x="3" y= "8">
+    <gate to="Priesterringe"/>
+    <gate to="Imperialer Grenzbezirk"/>
+    <gate to="Imperators Graben"/>
+  </sector>
+  <sector id="Imperators Graben" by="Paraniden" x="4" y= "8">
+    <gate to="Priesters Gnade"/>
+    <gate to="Herzogs Reich"/>
+  </sector>
+
+  <!-- Split Kernsektoren -->
+  <sector id="Familie Whi" by="Split" x="7" y= "1">
+    <gate to="Teladi Profit"/>
+    <gate to="Familie Zein"/>
+  </sector>
+  <sector id="Familie Zein" by="Split" x="7" y= "2">
+    <gate to="Familie Whi"/>
+    <gate to="Thuruks Stolz"/>
+  </sector>
+  <sector id="Thuruks Stolz" by="Split" x="7" y= "3">
+    <gate to="Familie Zein"/>
+    <gate to="Familienstolz"/>
+    <gate to="Chins Feuer"/>
+  </sector>
+  <sector id="Familienstolz" by="Split" x="8" y= "3">
+    <gate to="Thuruks Stolz"/>
+    <gate to="Chins Wolken"/>
+  </sector>
+  <sector id="Chins Feuer" by="Split" x="7" y= "4">
+    <gate to="Thuruks Stolz"/>
+    <gate to="Chins Wolken"/>
+    <gate to="Familie Chin"/>
+  </sector>
+  <sector id="Chins Wolken" by="Split" x="8" y= "4">
+    <gate to="Familienstolz"/>
+    <gate to="Chins Feuer"/>
+  </sector>
+  <sector id="Familie Chin" by="Split" x="7" y= "5">
+    <gate to="Chins Feuer"/>
+    <gate to="Thuruks Bart"/>
+  </sector>
+  <sector id="Thuruks Bart" by="Split" x="7" y= "6">
+    <gate to="Familie Chin"/>
+    <gate to="Firmenstolz"/>
+    <gate to="Xenon 9"/>
+  </sector>
+
+  <!-- Teladi Kernsektoren -->
+  <sector id="Ceos Buckzoid" by="Teladi" x="5" y= "1">
+    <gate to="Menelaus Grenze"/>
+    <gate to="Teladi Profit"/>
+    <gate to="Profitloch"/>
+  </sector>
+  <sector id="Teladi Profit" by="Teladi" x="6" y= "1">
+    <gate to="Ceos Buckzoid"/>
+    <gate to="Familie Whi"/>
+    <gate to="Profitbrunnen"/>
+  </sector>
+  <sector id="Profitloch" by="Teladi" x="5" y= "2">
+    <gate to="Ceos Buckzoid"/>
+    <gate to="Profitbrunnen"/>
+    <gate to="Raumkrautgraben"/>
+  </sector>
+  <sector id="Profitbrunnen" by="Teladi" x="6" y= "2">
+    <gate to="Teladi Profit"/>
+    <gate to="Profitloch"/>
+    <gate to="Großer Profit"/>
+  </sector>
+  <sector id="Raumkrautgraben" by="Teladi" x="5" y= "3">
+    <gate to="Profitloch"/>
+    <gate to="Großer Profit"/>
+  </sector>
+  <sector id="Großer Profit" by="Teladi" x="6" y= "3">
+    <gate to="Profitbrunnen"/>
+    <gate to="Raumkrautgraben"/>
+    <gate to="Blauer Profit"/>
+  </sector>
+  <sector id="Blauer Profit" by="Teladi" x="6" y= "4">
+    <gate to="Großer Profit"/>
+    <gate to="Ceos Geist"/>
+  </sector>
+  <sector id="Ceos Geist" by="Teladi" x="6" y= "5">
+    <gate to="Blauer Profit"/>
+    <gate to="Firmenstolz"/>
+  </sector>
+  <sector id="Firmenstolz" by="Teladi" x="6" y= "6">
+    <gate to="Ceos Geist"/>
+    <gate to="Thuruks Bart"/>
+  </sector>
+
+  <!-- Xenon Sektoren -->
+  <sector id="Xenon 1" by="Xenon" x="4" y= "4">
+    <gate to="Wolken der Atreus"/>
+    <gate to="Xenon 2"/>
+    <gate to="Xenon 3"/>
+  </sector>
+  <sector id="Xenon 2" by="Xenon" x="5" y= "4">
+    <gate to="Xenon 1"/>
+    <gate to="Xenon 4"/>
+  </sector>
+  <sector id="Xenon 3" by="Xenon" x="4" y= "5">
+    <gate to="Xenon 1"/>
+    <gate to="Trantor"/>
+    <gate to="Xenon 4"/>
+    <gate to="Xenon 5"/>
+  </sector>
+  <sector id="Xenon 4" by="Xenon" x="5" y= "5">
+    <gate to="Xenon 2"/>
+    <gate to="Xenon 3"/>
+    <gate to="Xenon 6"/>
+  </sector>
+  <sector id="Xenon 5" by="Xenon" x="4" y= "6">
+    <gate to="Xenon 3"/>
+    <gate to="Xenon 6"/>
+    <gate to="Priesters Gnade"/>
+  </sector>
+  <sector id="Xenon 6" by="Xenon" x="5" y= "6">
+    <gate to="Xenon 4"/>
+    <gate to="Xenon 5"/>
+    <gate to="Xenon 7"/>
+  </sector>
+  <sector id="Xenon 7" by="Xenon" x="5" y= "7">
+    <gate to="Xenon 6"/>
+    <gate to="Xenon 8"/>
+  </sector>
+  <sector id="Xenon 8" by="Xenon" x="6" y= "7">
+    <gate to="Xenon 7"/>
+    <gate to="Xenon 9"/>
+  </sector>
+  <sector id="Xenon 9" by="Xenon" x="7" y= "7">
+    <gate to="Thuruks Bart"/>
+    <gate to="Xenon 8"/>
+  </sector>
+
+  <!-- sector id="" by="" x="" y= "">
+    <gate to=""/>
+    <gate to=""/>
+  </sector -->
+
+</xuniverse-map>
